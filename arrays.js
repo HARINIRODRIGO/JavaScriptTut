@@ -21,3 +21,24 @@ for(i=1; i<101; i++){
 }
 
 console.log(fizzBuzzGame);
+
+var names = [];
+
+function whosPaying() {
+    addNames();
+    var randomNum = Math.floor(Math.random()*names.length);
+    console.log(names[randomNum]);
+}
+/*
+Get a random name from a list
+*/
+function addNames(){
+     for(i=0; i<3; i++)
+         {
+            var name = prompt("Name of the person?");
+            names.push(name);
+        }
+}
+
+whosPaying();
+console.log(names);
