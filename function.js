@@ -14,11 +14,11 @@ function loveScore(){
 function evaluateLoveScore(){
   var results = loveScore();
   if(results>=75){
-    alert("You're a good match");
+    alert("You guys are a good matching");
   } else if(results>=65){
-    alert("You're a good match");
+    alert("Love Score: "+ result + "%");
   } else{
-    alert("You're a good match");
+    alert("You guys are not matching");
 }
 }
 evaluateLoveScore();
@@ -34,5 +34,17 @@ function leapYear(year){
         console.log("Not a Leap Year");
     }
 }
-
 leapYear(2024);
+
+function game(){
+    for(i=1;i<=100;i++){
+        if(i%3==0 & i%5==0){
+            console.log("FizzBuzz, num: " + i);
+        }else if(i%3==0){
+            console.log("Fizz, num: "+i);
+        }else if(i%5==0){
+            console.log("Buzz, num: "+i);
+        }
+    }
+}
+game();
