@@ -1,1 +1,1 @@
-# git_bot
+# JavaScript Tutorial
